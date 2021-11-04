@@ -25,4 +25,6 @@ hs_err_pid*
 # IntelliJ
 .idea
 *.iml
-*/target/
+target/
+/bddtest-main/cucumber/target/
+/bddtest-main/jbehave/target/

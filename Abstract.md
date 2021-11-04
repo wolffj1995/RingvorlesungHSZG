@@ -7,8 +7,13 @@ Jonas Wolff
 Funktionale Tests mit Behaviour-Driven-Development
 
 # Abstract
+Das Testen von Software ist ein in der Entwicklung notwendiges Thema. Dabei reichen gute Unit-Tests oft nicht aus, um
+die korrekte Funktionsweise der Software in seinem vollen Umfang zu bestätigen. Speziell bei großen Softwareprodukten
+können Anpassungen an einem Modul zu Seiteneffekten in anderen Modulen führen, wodurch das regelmäßige Ausführen einer
+vollumfänglichen Systemtest-Suite ein unerlässlicher Baustein der Qualitätssicherung ist, um solche ungewünschten
+Änderungen zu identifizieren.
 
-Das Testen von Software ist ein in der Entwicklung nicht zu vernachlässigendes Thema. Dabei reichen einfache Unit-Tests oft nicht aus, um die korrekte Funktionsweise der Software in seinem vollen Umfang zu bestätigen. Speziell bei großen Softwareprodukten können Anpassungen an einem Modul zu Seiteneffekten in anderen Modulen führen, wodurch das regelmäßige Ausführen einer vollumfänglichen Systemtest-Suite ein unerlässlicher Baustein der Qualitätssicherung ist, um solche ungewünschten Änderungen zu identifizieren.
-
-**Behavior-Driven-Development** (BDD) bietet eine gute Möglichkeit, die vorhandenen und angeforderten Funktionen ohne viel Arbeit in Tests zu integrieren. Dabei stellen die Frameworks *JBehave* und *Cucumber* wichtige Funktionen bereit, diese Aufgabe zu realisieren.
-Dieser Vortrag führt in die Grundlagen von BDD ein, zeigt Gemeinsamkeiten und Unterschiede der beiden Frameworks und erläutert die Vorteile von BDD anhand praktischer Beispiele.
+**Behavior-Driven-Development** (BDD) bietet eine gute Möglichkeit, die vorhandenen und angeforderten Funktionen ohne
+viel Arbeit in Tests zu integrieren. Dabei stellen die Frameworks *JBehave* und *Cucumber* wichtige Funktionen bereit,
+diese Aufgabe zu realisieren. Dieser Vortrag führt in die Grundlagen von BDD ein, zeigt Gemeinsamkeiten und Unterschiede
+der beiden Frameworks und erläutert die Vorteile von BDD anhand praktischer Beispiele.
