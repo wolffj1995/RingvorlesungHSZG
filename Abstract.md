@@ -13,7 +13,7 @@ können Anpassungen an einem Modul zu Seiteneffekten in anderen Modulen führen,
 vollumfänglichen Systemtest-Suite ein unerlässlicher Baustein der Qualitätssicherung ist, um solche ungewünschten
 Änderungen zu identifizieren.
 
-**Behavior-Driven-Development** (BDD) bietet eine gute Möglichkeit, die vorhandenen und angeforderten Funktionen ohne
-viel Arbeit in Tests zu integrieren. Dabei stellen die Frameworks *JBehave* und *Cucumber* wichtige Funktionen bereit,
-diese Aufgabe zu realisieren. Dieser Vortrag führt in die Grundlagen von BDD ein, zeigt Gemeinsamkeiten und Unterschiede
-der beiden Frameworks und erläutert die Vorteile von BDD anhand praktischer Beispiele.
+**Behavior-Driven-Development** (BDD) bietet eine gute Möglichkeit, die vorhandenen und angeforderten Funktionen durch
+automatisierte Tests abzusichern. Dabei stellen die Frameworks *JBehave* und *Cucumber* wichtige Funktionen und
+Mechanismen bereit, diese Systemtests zu realisieren. Dieser Vortrag führt in die Grundlagen von BDD ein, zeigt
+Gemeinsamkeiten und Unterschiede der beiden Frameworks und erläutert die Vorteile von BDD anhand praktischer Beispiele.
