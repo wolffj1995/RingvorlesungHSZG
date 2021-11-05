@@ -26,5 +26,5 @@ hs_err_pid*
 .idea
 *.iml
 target/
-/bddtest-main/cucumber/target/
-/bddtest-main/jbehave/target/
+/bddtest/cucumber/target/
+/bddtest/jbehave/target/
