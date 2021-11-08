@@ -43,8 +43,8 @@ public class CommonSteps extends SeleniumSteps {
 
     @BeforeScenario
     public void beforeScenario() {
-//        webDriverWrapper.getDriver().manage().deleteAllCookies();
-//        webDriverWrapper.getDriver().manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
+        webDriverWrapper.getDriver().manage().deleteAllCookies();
+        webDriverWrapper.getDriver().manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
     }
 
     private void copyPropertySource(String prefix, String propertySourceName) {
@@ -56,7 +56,7 @@ public class CommonSteps extends SeleniumSteps {
     @Alias("the $pageClassName is shown again")
     public void waitUntilPageIsShown(String pageClassName) {
         try {
-            createExpectedPage((Class<? extends Page>) this.getClass().forName("com.tallence.bddtest.pages." + pageClassName));
+            createExpectedPage((Class<? extends Page>) this.getClass().forName("com.tallence.jbehave.pages." + pageClassName));
         } catch (ClassNotFoundException e) {
             throw new RuntimeException("A Page class with the given Name does not exist.", e);
         }

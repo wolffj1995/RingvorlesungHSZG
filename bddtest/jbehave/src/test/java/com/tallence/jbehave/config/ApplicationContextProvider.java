@@ -50,7 +50,6 @@ public class ApplicationContextProvider {
 
         // add configuration (annotated with componentscan)
         applicationContext.register(TestConfig.class);
-
         applicationContext.refresh();
 
         // remove BDD StoryInteractionParameterConverter  -> It is replaced by own NullableStoryInteractionParameterConverter

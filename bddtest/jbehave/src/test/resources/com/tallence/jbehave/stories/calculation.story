@@ -30,26 +30,26 @@ Scenario: 02 - GivenStories
 Meta:
 @Id2
 
-GivenStories: com/tallence/bddtest/stories/name_input.story#{Id2:scenario2}
+GivenStories: com/tallence/bddtest/stories/name_input.story#{Id4:scenario4}
 When input field 1 1
 And input field 2 1
 And input field 3 1
 And submit fields
 Then the CalculationResultPage is shown
-Then the name matches $test_data.properties.name1 on resultPage
+Then the name matches $test_data.properties.name2 on resultPage
 Then the result equals 3 on resultPage
 
 Scenario: 03 - PatternVariants
 Meta:
 @Id3
 
-GivenStories: com/tallence/bddtest/stories/name_input.story#{Id2:scenario2}
+GivenStories: com/tallence/bddtest/stories/name_input.story#{Id4:scenario4}
 When input field 1 1
 And input field 2 1
 And input field 3 1
 And submit fields
 Then the CalculationResultPage is shown
-Then the name matches $test_data.properties.name1 on resultPage
+Then the name matches $test_data.properties.name2 on resultPage
 Then the result is 3 on resultPage
 Then the result equals 3 on resultPage
 
