@@ -28,7 +28,7 @@ public class ApplicationContextProvider {
         if(     activeProfileConfig.length < 1 ||
                 !activeProfileConfig[0].startsWith("set") ||
                 activeProfileConfig.length > 2){
-            throw new RuntimeException("wrong configuration: needs to be of type  -Dspring.profiles.active=set_develop");
+            throw new RuntimeException("wrong configuration: needs to be of type  -Dspring.profiles.active=set_development");
         }
         List<String> activeProfiles = Arrays.stream(activeProfileConfig).filter(para -> !para.startsWith("set")).collect(toList());
 

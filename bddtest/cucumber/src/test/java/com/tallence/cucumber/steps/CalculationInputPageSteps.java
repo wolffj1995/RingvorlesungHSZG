@@ -15,19 +15,19 @@ public class CalculationInputPageSteps extends SeleniumSteps {
     @Autowired
     protected WebDriverWrapper webDriverWrapper;
 
-    @When("input field 1 $value")
+    @When("input field 1 {string}")
     public void inputField1(final String value) {
         CalculationInputPage calculationInputPage = getCurrentPage();
         calculationInputPage.setValue1Input(value);
     }
 
-    @When("input field 2 $value")
+    @When("input field 2 {string}")
     public void inputField2(final String value) {
         CalculationInputPage calculationInputPage = getCurrentPage();
         calculationInputPage.setValue2Input(value);
     }
 
-    @When("input field 3 $value")
+    @When("input field 3 {string}")
     public void inputField3(final String value) {
         CalculationInputPage calculationInputPage = getCurrentPage();
         calculationInputPage.setValue3Input(value);
@@ -39,7 +39,7 @@ public class CalculationInputPageSteps extends SeleniumSteps {
         calculationInputPage.submit();
     }
 
-    @Then("the name matches $name on inputPage")
+    @Then("the name matches {interactionKey} on inputPage")
     public void nameMatches(final String name) {
         CalculationInputPage calculationInputPage = getCurrentPage();
         assertTrue(calculationInputPage.nameMatches(Pattern.compile(name)));

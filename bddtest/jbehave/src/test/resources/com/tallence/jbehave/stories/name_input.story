@@ -17,7 +17,7 @@ When submit name
 Then the CalculationInputPage is shown
 Then the name matches Spongebob on inputPage
 
-Scenario: 02 - Enter name and goto Calculcation page
+Scenario: 02 - Enter name and goto Calculation page
 Meta:
 @Id2 scenario2
 

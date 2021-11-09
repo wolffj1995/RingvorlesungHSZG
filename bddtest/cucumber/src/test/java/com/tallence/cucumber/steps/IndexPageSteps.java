@@ -14,7 +14,7 @@ public class IndexPageSteps extends SeleniumSteps {
     @Autowired
     private TestProperties testProperties;
 
-    @When(value = "enter name $name")
+    @When(value = "enter name {interactionKey}")
     public void enterName(final String name) {
         IndexPage indexPage = getCurrentPage();
         indexPage.setNameInput(name);
@@ -26,7 +26,13 @@ public class IndexPageSteps extends SeleniumSteps {
         indexPage.submit();
     }
 
-    @Given("the index page is called")
+    @When("enter and submit name {interactionKey} on indexPage")
+    public void enterAndSubmitName(final String name) {
+        enterName(name);
+        submitName();
+    }
+
+    @Given("call index page")
     public void indexPageCalled() {
         webDriverWrapper.getDriver().get(testProperties.getAppHostIncludingPort() + testProperties.getAppContextPath());
     }
