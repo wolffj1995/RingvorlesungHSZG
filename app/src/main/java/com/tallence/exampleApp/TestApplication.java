@@ -1,4 +1,4 @@
-package com.tallence.advancedbdd;
+package com.tallence.exampleApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

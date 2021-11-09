@@ -1,6 +1,6 @@
-package com.tallence.advancedbdd;
+package com.tallence.exampleApp;
 
-import com.tallence.advancedbdd.person.Person;
+import com.tallence.exampleApp.person.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 

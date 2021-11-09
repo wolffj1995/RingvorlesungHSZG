@@ -1,4 +1,4 @@
-package com.tallence.advancedbdd.person;
+package com.tallence.exampleApp.person;
 
 public class Person {
     private String name;

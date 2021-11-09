@@ -1,4 +1,4 @@
-package com.tallence.advancedbdd.calculation;
+package com.tallence.exampleApp.calculation;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
