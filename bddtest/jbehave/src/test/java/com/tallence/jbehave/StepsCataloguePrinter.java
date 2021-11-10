@@ -24,7 +24,7 @@ public class StepsCataloguePrinter {
 
     @Before
     public void setUp() {
-        reflections = new Reflections("com.tallence.bddtest.steps", new MethodAnnotationsScanner(), new TypeAnnotationsScanner(), new SubTypesScanner());
+        reflections = new Reflections("com.tallence.jbehave.steps", new MethodAnnotationsScanner(), new TypeAnnotationsScanner(), new SubTypesScanner());
     }
 
     @Test

@@ -30,7 +30,7 @@ Scenario: 02 - GivenStories
 Meta:
 @Id2
 
-GivenStories: com/tallence/bddtest/stories/name_input.story#{Id4:scenario4}
+GivenStories: com/tallence/jbehave/stories/name_input.story#{Id4:scenario4}
 When input field 1 1
 And input field 2 1
 And input field 3 1
@@ -43,7 +43,7 @@ Scenario: 03 - PatternVariants
 Meta:
 @Id3
 
-GivenStories: com/tallence/bddtest/stories/name_input.story#{Id4:scenario4}
+GivenStories: com/tallence/jbehave/stories/name_input.story#{Id4:scenario4}
 When input field 1 1
 And input field 2 1
 And input field 3 1

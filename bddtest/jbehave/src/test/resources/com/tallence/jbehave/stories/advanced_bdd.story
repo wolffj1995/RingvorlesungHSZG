@@ -34,7 +34,7 @@ Then the name matches $test_data.properties.name2 on inputPage
 Scenario: GivenStories
 Meta:
 
-GivenStories: com/tallence/bddtest/stories/name_input.story#{Id2:scenario2}
+GivenStories: com/tallence/jbehave/stories/name_input.story#{Id2:scenario2}
 When input field 1 1
 And input field 2 1
 And input field 3 1
