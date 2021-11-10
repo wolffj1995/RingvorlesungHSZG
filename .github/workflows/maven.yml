@@ -9,11 +9,11 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+#on:
+#  push:
+#    branches: [ main ]
+#  pull_request:
+#    branches: [ main ]
 
 jobs:
   build:
