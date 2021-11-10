@@ -16,7 +16,8 @@ jobs:
     services:
       app:
         image: ghcr.io/wolffj1995/ringvorlesunghszg:main
-        ports: 8080:8080
+        ports:
+          - 8080:8080
     steps:
       - uses: actions/checkout@v2
       - name: Set up JDK 11
