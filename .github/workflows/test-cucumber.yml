@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     services:
-      image: ${{ github.repository }}
+      image: ${{ env.IMAGE_NAME }}
       ports: 8080:8080
     steps:
       - name: Login to GitLab
