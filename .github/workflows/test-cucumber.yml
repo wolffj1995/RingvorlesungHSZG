@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     services:
-      image: ${{ env.IMAGE_NAME }}
+      image: wolffj1995/ringvorlesunghszg:main
       ports: 8080:8080
     steps:
       - name: Login to GitLab
