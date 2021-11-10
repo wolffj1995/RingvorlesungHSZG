@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     services:
       image: ghcr.io/wolffj1995/ringvorlesunghszg:main
-      ports: 8080:8080
+#      ports: 8080:8080
     steps:
       - name: Login to GitLab
         uses: docker/login-action@v1
