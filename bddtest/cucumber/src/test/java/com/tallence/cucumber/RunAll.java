@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"classpath:"},
         plugin = {"html:target/cucumber-html-report.html", "json:target/cucumber-json-report.json"},
-        glue = {"com.talence.cucumber.steps"},
+        glue = {"com.tallence.cucumber.steps"},
         tags = "not @ignore")
 public class RunAll {
 }
