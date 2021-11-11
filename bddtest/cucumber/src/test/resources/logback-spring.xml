@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true" scan="true">
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
+
+    <property name="CONSOLE_PATTERN"
+              value="%d %-5level [%logger{36}] %msg%n" />
+
+    <appender name="CONSOLE_APPENDER" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <!--Application Loggers -->
+    <logger name="com.tallence.cucumber">
+        <level value="INFO"/>
+    </logger>
+
+    <logger name="de.telekom.test.bddwebapp.frontend.steps.SeleniumSteps">
+        <level value="WARN" />
+    </logger>
+
+    <logger name="de.telekom.test.bddwebapp.interaction.InteractionParameterConverter">
+        <level value="WARN" />
+    </logger>
+
+    <!--3rdparty Loggers -->
+    <logger name="httpclient.wire">
+        <level value="TRACE"/>
+    </logger>
+    <logger name="ch.qos.logback">
+        <level value="ERROR"/>
+    </logger>
+    <logger name="org.mitre">
+        <level value="DEBUG"/>
+    </logger>
+    <logger name="javax.faces.webapp">
+        <level value="DEBUG"/>
+    </logger>
+    <logger name="lifecycle">
+        <level value="FINE"/>
+    </logger>
+    <logger name="javax.enterprise.resource.webcontainer.jsf">
+        <level value="FINE"/>
+    </logger>
+    <logger name="org.springframework.boot.test.context.SpringBootTestContextBootstrapper">
+        <level value="OFF" />
+    </logger>
+    <logger name="org.springframework.test.context.support.AbstractContextLoader">
+        <level value="OFF" />
+    </logger>
+    <logger name="com.gargoylesoftware.htmlunit.javascript.host.css.CSSStyleSheet">
+        <level value="OFF" />
+    </logger>
+    <logger name="com.gargoylesoftware.htmlunit.DefaultCssErrorHandler">
+        <level value="OFF" />
+    </logger>
+    <logger name="com.gargoylesoftware.htmlunit.javascript">
+        <level value="OFF" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE_APPENDER"/>
+    </root>
+
+</configuration>
