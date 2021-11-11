@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: jbehave-report
-          path: target/jbehave/view
+          path: bddtest/jbehave/target/jbehave/view

@@ -34,4 +34,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: cucumber-report
-          path: target
+          path: |
+            bddtest/cucumber/target/cucumber-html-report.html
+            bddtest/cucumber/target/cucumber-html-report.json
