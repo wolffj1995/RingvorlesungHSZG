@@ -7,9 +7,12 @@ import com.tallence.jbehave.config.ProxyInstanceStepsFactory;
 import de.telekom.test.bddwebapp.jbehave.steps.Steps;
 import org.jbehave.core.configuration.Configuration;
 import org.jbehave.core.embedder.Embedder;
+import org.jbehave.core.io.UnderscoredToCapitalized;
+import org.jbehave.core.reporters.FreemarkerViewGenerator;
 import org.jbehave.core.steps.InjectableStepsFactory;
 import org.springframework.context.ApplicationContext;
 
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
