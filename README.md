@@ -2,9 +2,10 @@
 
 ## Inhalte
 
-1. Was ist BDD?
-2. Warum BDD?
+1. Einleitung
+2. Behaviour-Driven-Development
 3. Funktionsweise von BDD-Frameworks
 4. Frameworks
-    1. JBehave
-    2. Cucumber
+    1. Cucumber
+    2. JBehave
+5. Beispiel
